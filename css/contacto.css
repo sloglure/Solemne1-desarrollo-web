@@ -1,31 +1,87 @@
+html, body { margin: 0; }
+body
+{
+	color: white;
+	background-image: linear-gradient(to bottom, rgba(31, 0, 12, 1.0), rgba(31, 0, 12, 0.8)), url("../img/fondocontacto.jpg");
+	background-size: cover;
+}
+
+nav
+{
+	background: rgb(31, 0, 12);
+	padding-top: .8em;
+	padding-bottom: .8em;
+	text-align: center;
+}
+
+footer
+{
+	background: rgb(31, 0, 12);
+	padding-left: 10%;
+	padding-right: 10%;
+
+
+	padding-top: .8em;
+	padding-bottom: .8em;
+}
+
+.nav-custom a
+{
+	padding-right: 1.5em;
+	color: white;
+
+}
+
+
+.center, h1, h2, h3, h4 { text-align: center; }
+
+main.main-custom
+{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+section
+{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
 button
 {
-	background: none;
-	color: black;
-	border: 3px solid #390016;
+	color: white;
+	background: #390016;
+	border: none;
 	border-radius: 9px;
 }
 button:hover
 {
 	background: #390016;
-	color: white;
+	border: 1px solid white;
 }
 
-.nav-custom a
+
+.formulario-container
 {
-	padding-right: 1.2em;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
-
 /*para label form*/
 .campo-form {
-	margin-top: 1.3em;
-	margin-bottom: 1.3em;
+	margin-left: 2.3em;
+	margin-right: 2.3em;
+	margin-bottom: 2.3em;
 }
 label { display: block; } /*quiebre de linea*/
 
 a
 {
 	text-decoration: none;
+	color: #ab2772;
 }
 a:hover
 {

@@ -9,7 +9,7 @@
 <body>
     <header>
 	<nav class="nav-custom">
-        <a href="index.html">Destino Cordillera</a>
+        <a href="index.html"><b>Destino Cordillera</b></a>
         <a href="panoramas.html">Panoramas</a>
         <a href="alojamiento.html">Alojamiento y Gastronomía</a>
         <a href="reserva.html">Reserva y Contacto</a>
@@ -22,35 +22,38 @@
             <!-- Formulario de Reserva -->
             <section class="formulario-seccion">
                 <h2>Reserva tu Aventura</h2>
-                <p>Completa el formulario para solicitar más información o gestionar tu reserva.</p>
+                <p class="center">Completa el formulario para solicitar más información o gestionar tu reserva.</p>
                 
                 <form class="formulario-custom">
-                    <div class="campo-form">
-                        <label for="nombre">Nombre Completo</label>
-                        <input type="text" id="nombre" placeholder="Ej: María González" required>
+                    <div class="center">
+                        <div class="formulario-container">
+                            <div class="campo-form">
+                                <label for="nombre">Nombre Completo</label>
+                                <input type="text" id="nombre" placeholder="Ej: María González" required>
+                            </div>
+                            
+                            <div class="campo-form">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" id="email" placeholder="correo@ejemplo.com" required>
+                            </div>
+                            
+                            <div class="campo-form">
+                                <label for="servicio">Servicio a consultar</label>
+                                <select id="servicio" required>
+                                    <option value="" selected disabled>Selecciona una opción...</option>
+                                    <option value="alojamiento">Alojamiento / Cabañas</option>
+                                    <option value="tour">Tour o Actividad</option>
+                                    <option value="duda">Duda General</option>
+                                </select>
+                            </div>
+                            
+                            <div class="campo-form">
+                                <label for="mensaje">Mensaje o Detalles de Reserva</label>
+                                <textarea id="mensaje" rows="4" placeholder="Indica fechas, cantidad de personas o tus dudas..."></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-enviar">Enviar Solicitud</button>
                     </div>
-                    
-                    <div class="campo-form">
-                        <label for="email">Correo Electrónico</label>
-                        <input type="email" id="email" placeholder="correo@ejemplo.com" required>
-                    </div>
-                    
-                    <div class="campo-form">
-                        <label for="servicio">Servicio a consultar</label>
-                        <select id="servicio" required>
-                            <option value="" selected disabled>Selecciona una opción...</option>
-                            <option value="alojamiento">Alojamiento / Cabañas</option>
-                            <option value="tour">Tour o Actividad</option>
-                            <option value="duda">Duda General</option>
-                        </select>
-                    </div>
-                    
-                    <div class="campo-form">
-                        <label for="mensaje">Mensaje o Detalles de Reserva</label>
-                        <textarea id="mensaje" rows="4" placeholder="Indica fechas, cantidad de personas o tus dudas..."></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn-enviar">Enviar Solicitud</button>
                 </form>
             </section>
 
