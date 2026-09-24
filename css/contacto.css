@@ -2,13 +2,14 @@ html, body { margin: 0; }
 body
 {
 	color: white;
-	background-image: linear-gradient(to bottom, rgba(31, 0, 12, 1.0), rgba(31, 0, 12, 0.8)), url("../img/fondocontacto.jpg");
+	background-image: linear-gradient(to bottom, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.85)), url("../img/fondocontacto.jpg");
 	background-size: cover;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
 
 nav
 {
-	background: rgb(31, 0, 12);
+	background: #1E293B;
 	padding-top: .8em;
 	padding-bottom: .8em;
 	text-align: center;
@@ -16,7 +17,7 @@ nav
 
 footer
 {
-	background: rgb(31, 0, 12);
+	background: #1E293B;
 	padding-left: 10%;
 	padding-right: 10%;
 
@@ -51,13 +52,13 @@ section
 button
 {
 	color: white;
-	background: #390016;
+	background: #0284C7;
 	border: none;
 	border-radius: 9px;
 }
 button:hover
 {
-	background: #390016;
+	background:#0369A1;
 	border: 1px solid white;
 }
 
@@ -81,9 +82,21 @@ label { display: block; } /*quiebre de linea*/
 a
 {
 	text-decoration: none;
-	color: #ab2772;
+	color: #0284C7;;
 }
 a:hover
 {
 	text-decoration: underline;
+	color: #38BDF8;
+}
+
+.caja-info ul {
+    display: inline-block;
+    text-align: left; 
+    padding-left: 1.5em; 
+}
+
+
+.caja-info {
+    text-align: center;
 }
