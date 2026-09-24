@@ -21,4 +21,6 @@ El sitio se puede ver abriendo el archivo index.html en la carpeta raíz en un n
 - Catalina Hernandez: Trabajo en CSS.
 - Francisco Javier: Implementación de base para páginas.
 - Matías Catalán: Implementación de Bootstrap e imágenes.
+
 Cada uno trabajó un poco en el CSS para la página de contacto (la cual no utiliza Bootstrap).
+
