@@ -10,3 +10,22 @@
     background-repeat: no-repeat;
     color: white;
 }
+/*usare los nombres base que pone bootstrap para no modifcar todo el codigo por cada parte:)*/
+body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+}
+
+.site-header, .bg-dark {
+    background-color:  #1E293B !important;
+}
+
+.card {
+    background-color: #E2E8F0;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #0284C7;
+    border-color: #0284C7;
+}
