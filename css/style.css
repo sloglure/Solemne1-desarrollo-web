@@ -47,3 +47,16 @@ body {
     border-color: #0284C7;
     color: white;
 }
+.color_encabezado th {
+    background-color: #1E293B !important; 
+    color: #ffffff !important;            
+}
+
+/*hover de cada etiqueta <a> del navbar*/
+.site-header a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.site-header a:hover {
+    color: #0284C7 !important;
+}
