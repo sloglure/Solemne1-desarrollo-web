@@ -1,1 +1,12 @@
 /*hola*/
+
+/*diseño de imagenes*/
+.banner{
+    /*la parte del codigo que dice "linear-gradient" es para que la imagen tenga un efecto tipo sombra y se vean mejor el titulo y la info*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    /*"background-repeat" permite que la imagen se ajuste al contenedor sin repetirse hacia los lados para rellenar el espacio*/
+    background-repeat: no-repeat;
+    color: white;
+}
