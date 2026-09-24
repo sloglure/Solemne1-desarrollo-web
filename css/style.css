@@ -1,1 +1,11 @@
-/*hola*/
+.carac {
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0;
+}
+
+.carac0 { background-image: url("../img/abuela.png"); }
+.carac1 { background-image: url("../img/descanso.jpg"); }
+.carac2 { background-image: url("../img/comida.jpg") }
+
+.bannerimg { background-image: url("../img/banner.jpg"); }
