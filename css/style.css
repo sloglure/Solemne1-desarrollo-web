@@ -1,1 +1,62 @@
 /*hola*/
+
+/*diseño de imagenes*/
+.banner{
+    /*la parte del codigo que dice "linear-gradient" es para que la imagen tenga un efecto tipo sombra y se vean mejor el titulo y la info*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    /*"background-repeat" permite que la imagen se ajuste al contenedor sin repetirse hacia los lados para rellenar el espacio*/
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    margin: 0 !important;
+    padding: 4rem 1rem !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+/*usare los nombres base que pone bootstrap para no modifcar todo el codigo por cada parte:)*/
+body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+}
+
+.site-header, .bg-dark {
+    background-color:  #1E293B !important;
+    
+}
+
+.card {
+    background-color: #E2E8F0;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #0284C7;
+    border-color: #0284C7;
+}
+/*tamaño de imagenes para los panaromas, asi no contienen tamaños distintos (nuevamente ocupo el mismo nombre que puso el bootstrap)*/
+.card-img-top {
+    height: 200px;         /* alto fijo para todas las fotos */
+    object-fit: cover;     /* recorta la imagen sin deformarla */
+    width: 100%;           /* ocupa todo el ancho disponible del contenedor/tarjeta */
+}
+/*boton del banner*/
+.btn {
+    background-color: #0284C7;
+    border-color: #0284C7;
+    color: white;
+}
+.color_encabezado th {
+    background-color: #1E293B !important; 
+    color: #ffffff !important;            
+}
+
+/*hover de cada etiqueta <a> del navbar*/
+.site-header a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.site-header a:hover {
+    color: #0284C7 !important;
+}
