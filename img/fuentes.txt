@@ -4,3 +4,10 @@ descanso.jpg - https://www.istockphoto.com/photo/asian-man-travel-relax-in-the-h
 comida.jpg - https://www.istockphoto.com/es/foto/disfrutando-de-un-brunch-juntos-gm1829241109-550651763
 
 banner.jpg - https://www.magnific.com/free-photo/beautiful-panoramic-shot-snow-covered-mountain-ranges-clear-blue-sunny-sky_11062702.htm
+
+panorama1.jpg - https://culturacientifica.com/2023/10/26/geiser-urbano/
+panorama2.jpg - https://blog.chapkadirect.es/wp-content/uploads/2023/06/lagos-canada-1024x768.jpeg
+panorama3.jpg - https://www.treehugger.com/thmb/_w8wu8CQSZcN_pyw-8ADXuD2fCY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tundra-climate-5be07fabc9e77c0051e2145d.jpg
+panorama4.jpg - https://kmstravel.cl/wp-content/uploads/2023/12/Pastel-de-Choclo-Chileno-1024x1024.jpg
+panorama5.jpg - https://www.chullostravelperu.com/blog/wp-content/uploads/2026/01/artesanias-cusco-05-1.jpg
+panorama6.jpg - https://i.pinimg.com/1200x/fb/62/8a/fb628a3b52969035ae121c896355745a.jpg
